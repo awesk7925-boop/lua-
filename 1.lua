@@ -1,8 +1,8 @@
 -- =========================================================================
--- RYNOX.lua — BRPlayerCharacterBase + Mod Payload (v3501 STABLE)
+-- PSYCO.lua — BRPlayerCharacterBase + Mod Payload (v3501 STABLE)
 -- -------------------------------------------------------------------------
--- Decompiled & patched by: RYNOX
--- Credits: RYNOX
+-- Decompiled & patched by: PSYCO
+-- Credits: PSYCO
 --
 -- SECTION INDEX:
 --   0   — Package detection & paths
@@ -88,7 +88,7 @@ if not packageName then
 end
 
 gameRegion = SUPPORTED_PACKAGES[packageName] or "Unknown"
-print("[RYNOX MOD] Package: " .. packageName .. " (" .. gameRegion .. ")")
+print("[PSYCO MOD] Package: " .. packageName .. " (" .. gameRegion .. ")")
 
 local PATHS = {
     PubgData  = "//storage/emulated/0/Android/data/" .. packageName .. "/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/",
